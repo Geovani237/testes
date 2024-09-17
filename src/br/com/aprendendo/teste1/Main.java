@@ -1,3 +1,5 @@
+package br.com.aprendendo.teste1;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -18,6 +20,9 @@ public class Main {
         for(int i = 0; i < vetor.length; i++) {
             System.out.println("[" + i + "] = " + vetor[i]);
         }
+        String[] nomes = new String[50]; //vetor de Strings
+        double[] valores = new double[10]; //vetor de double
+        Produto[] produtos = new Produto[8]; //vetor de Produtos
 
     }
 }
